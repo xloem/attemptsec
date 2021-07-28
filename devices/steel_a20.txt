@@ -1,0 +1,23 @@
+does this device have any identifying numbers in software or hardware?
+2021-07-28
+	Current state:
+	- not connecting to any external storage devices
+	- not intentionally connecting to any networks
+	- would be good to review system for communication avenues and disable them in software
+			- for hardware, invest disabling energy in a differing system
+	- communicating only via usb serial port using affixed cable.
+			olimex-issued 10c4:ea60 CP2102 usb-uart software-serial 0001
+	Past State:
+	- board has been networked
+	- board has had questionable sata disk plugged.  disk still affixed to it, unplugged.
+	- device has been left unsupervised without physical security for extended time
+	- OS image is old
+	- demonstrated mysterious boot misbehaviors which have mysteriously stopped
+		serial port terminal booted with different baud every boot for a period mid 2021
+2021-07-28
+	Device has an old operating system that has been networked.
+	Image and device behaved reliably a few years ago.
+	A few weeks ago, the device's baud began changing on its own at boot.
+	I had not networked it, but I had connected a disk drive via SATA and used the serial port.
+	I stopped using it.
+
