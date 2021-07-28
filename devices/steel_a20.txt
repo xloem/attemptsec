@@ -3,6 +3,7 @@ does this device have any identifying numbers in software or hardware?
 	Current state:
 	- not connecting to any external storage devices
 	- not intentionally connecting to any networks
+	- in view of powered camera
 	- would be good to review system for communication avenues and disable them in software
 			- for hardware, invest disabling energy in a differing system
 	- communicating only via usb serial port using affixed cable.
